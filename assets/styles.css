@@ -35,7 +35,7 @@
 
 body {
     font-family: 'Fredoka Medium', sans-serif;
-    background-color: black; /* Set background color to black */
+    background-color: #1E1E1E; /* Set background color to black */
     color: white; /* Set text color to white for better contrast */
 }
 
@@ -44,12 +44,27 @@ body.light-theme {
     color: black; /* Set text color to black for better contrast */
 }
 
-p.normal {
+p.light {
+    font-family: 'Fredoka Light';
+    font-weight: 300;
+}
+
+p.regular {
     font-family: 'Fredoka Regular';
-    font-weight: normal;
+    font-weight: 400;
+}
+
+p.medium {
+    font-family: 'Fredoka Medium';
+    font-weight: 500;
+}
+
+p.semibold {
+    font-family: 'Fredoka SemiBold';
+    font-weight: 600;
 }
 
 p.bold {
     font-family: 'Fredoka Bold';
-    font-weight: bold;
+    font-weight: 700;
 }
