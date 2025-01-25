@@ -1,48 +1,50 @@
 @font-face {
     font-family: 'Fredoka Light';
     src: url('fonts/fredoka/Fredoka-Light.ttf') format('truetype');
-    font-weight: light;
+    font-weight: 300; /* Light weight */
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Fredoka Regular';
     src: url('fonts/fredoka/Fredoka-Regular.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 400; /* Normal weight */
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Fredoka Medium';
     src: url('fonts/fredoka/Fredoka-Medium.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: 500; /* Medium weight */
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Fredoka SemiBold';
     src: url('fonts/fredoka/Fredoka-SemiBold.ttf') format('truetype');
-    font-weight: 600;
+    font-weight: 600; /* SemiBold weight */
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Fredoka Bold';
     src: url('fonts/fredoka/Fredoka-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700; /* Bold weight */
     font-style: normal;
 }
 
 body {
-    font-family: 'Fredoka Medium';
-    background-color: black;
-    color: white;
+    font-family: 'Fredoka Medium', sans-serif;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white for better contrast */
 }
 
 p.normal {
+    font-family: 'Fredoka Regular';
     font-weight: normal;
 }
 
 p.bold {
+    font-family: 'Fredoka Bold';
     font-weight: bold;
 }
