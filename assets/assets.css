@@ -36,7 +36,10 @@ button {
   --secondary-container: #3a4b39;
   --primary: #84da89;
   font-size: 17px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
   display: inline-block;
   width: 3.7em;
   height: 1.8em;
