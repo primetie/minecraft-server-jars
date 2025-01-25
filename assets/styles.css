@@ -35,6 +35,8 @@
 
 body {
     font-family: 'Fredoka Medium';
+    background-color: black;
+    color: white;
 }
 
 p.normal {
