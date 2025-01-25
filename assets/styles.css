@@ -39,6 +39,11 @@ body {
     color: white; /* Set text color to white for better contrast */
 }
 
+body.light-theme {
+    background-color: white; /* Set background color to white */
+    color: black; /* Set text color to black for better contrast */
+}
+
 p.normal {
     font-family: 'Fredoka Regular';
     font-weight: normal;
