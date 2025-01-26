@@ -39,7 +39,7 @@ button {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 1px;
+  margin: 0;
   display: inline-block;
   width: 3.7em;
   height: 1.8em;
@@ -62,6 +62,7 @@ button {
   background-color: #25b6f4;
   transition: .2s;
   border-radius: 30px;
+  
  }
  
  .slider:before {
@@ -90,4 +91,63 @@ button {
  
  input:checked + .slider:before {
   transform: translateX(1.9em);
+ }
+
+ .container {
+  display: inline-grid;
+  grid-template-columns: auto; 
+  padding: 1em;
+  gap: 1em;
+}
+
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: linear-gradient(135deg, #3405a3, #3d058c);
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a886b;
+ }
+ 
+ .card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+ }
+ 
+ .card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+ }
+ 
+ .card .img {
+  width: 70px;
+  height: 80px;
+  background: #6b64f3;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+ }
+ 
+ .card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #6b64f3;
+  color: white;
+  font-weight: 600;
+ }
+ 
+ .card button:hover {
+  background: #534bf3;
  }
